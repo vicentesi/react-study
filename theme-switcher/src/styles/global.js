@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #e6e7e8;
+    background: ${props => props.theme.colors.background};
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
