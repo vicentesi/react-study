@@ -4,16 +4,16 @@ import { ThemeContext } from 'styled-components';
 
 import * as S from './style'
 
-const Header = () => {
-  const { colors } = useContext(ThemeContext);
+const Header = (props) => {
+  const { colors, title } = useContext(ThemeContext);
 
   return (
     <S.Container>
       <h2>Header</h2>
 
       <Switch
-        onChange={() => { }}
-        checked={true}
+        onChange={props.toggleTheme}
+        checked={title === 'dark'}
         checkedIcon={false}
         uncheckedIcon={false}
         onColor={colors.secondary}

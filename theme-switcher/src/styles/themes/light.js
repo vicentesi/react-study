@@ -1,5 +1,5 @@
 export const light = {
-  title: 'dark',
+  title: 'light',
 
   colors: {
     primary: '#FF715B',
