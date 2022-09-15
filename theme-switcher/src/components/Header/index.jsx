@@ -17,7 +17,7 @@ const Header = (props) => {
         checkedIcon={false}
         uncheckedIcon={false}
         onColor={colors.secondary}
-        offColor={colors.background}
+        offColor={colors.secondary}
       />
     </S.Container>
   )
